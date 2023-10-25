@@ -1,13 +1,11 @@
-h1 {
-    color: #FFFFFF;
-}
-p {
-    color: #FFFFFF;
-}
-
 body {
-    background-color: #782221;
-    width: 1160px;
-    margin: auto;
+    background-color: #FFFFFF;
+    margin: 0;
+    padding: 0;
 }
 
+#width_body {
+    width: 1160px;
+    background-color: #782221;
+    margin:auto;
+}
