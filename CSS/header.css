@@ -21,6 +21,11 @@ header figure {
     width: 150px;
     height: 150px;
 }
+
+header figure a:hover {
+   cursor: zoom-in;
+}
+
 header figure img {
     width: 100%;
     height: 100%;
