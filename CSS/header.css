@@ -44,3 +44,7 @@ header section2 a {
     color: #FFFFFF;
     text-decoration: none;
 }
+
+header section2 a:hover {
+    text-decoration: underline;
+}
