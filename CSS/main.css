@@ -6,10 +6,16 @@ main {
 aside {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    width: 20em;
+    align-items: normal;
+    width: 25em;
 }
 
+aside h3 {
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    background-color: #dbc2a4;
+}
 main section {
     background-color: #FFFFFF;
     border-right-width: 5px;
