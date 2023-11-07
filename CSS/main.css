@@ -6,7 +6,6 @@ main {
 aside {
     display: flex;
     flex-direction: column;
-    align-items: normal;
     width: 30rem;
 }
 
@@ -26,6 +25,10 @@ aside p {
 
 #apropos {
     text-indent: 2rem;
+}
+
+h3 {
+    text-indent: 2rem; /*à revoir si cest pas 1rem */
 }
 
 aside li {
