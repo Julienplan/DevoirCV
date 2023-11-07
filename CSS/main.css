@@ -7,7 +7,7 @@ aside {
     display: flex;
     flex-direction: column;
     align-items: normal;
-    width: 25em;
+    width: 30rem;
 }
 
 aside h3 {
@@ -16,9 +16,25 @@ aside h3 {
     width: 85%;
     background-color: #dbc2a4;
 }
+
+aside p {
+    color: #FFFFFF;
+    margin-left: 5%;
+    width: 80%;
+    text-align: justify;
+}
+
+#apropos {
+    text-indent: 2rem;
+}
+
+aside li {
+    color: #FFFFFF;
+}
+
 main section {
     background-color: #FFFFFF;
-    border-right-width: 5px;
+    border-right-width: 2px;
     border-right-color: #2c1d27;
     border-right-style: solid;
 }
