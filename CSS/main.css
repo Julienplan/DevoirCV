@@ -1,0 +1,43 @@
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+}
+
+aside h3 {
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    background-color: #dbc2a4;
+}
+
+aside p {
+    color: #FFFFFF;
+    margin-left: 5%;
+    width: 80%;
+    text-align: justify;
+}
+
+#apropos {
+    text-indent: 2rem;
+}
+
+h3 {
+    text-indent: 2rem; /*à revoir si cest pas 1rem */
+}
+
+aside li {
+    color: #FFFFFF;
+}
+
+main section {
+    background-color: #FFFFFF;
+    border-right-width: 2px;
+    border-right-color: #2c1d27;
+    border-right-style: solid;
+}
