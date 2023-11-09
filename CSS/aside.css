@@ -1,0 +1,30 @@
+aside {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+aside h3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 15%;
+    height: 2rem;
+    background-color: #dbc2a4;
+    text-indent: 1rem;
+}
+
+aside p {
+    color: #FFFFFF;
+    margin-left: 5%;
+    margin-right: 15%;
+    text-align: justify;
+}
+
+#apropos {
+    text-indent: 2rem;
+}
+
+aside li {
+    color: #FFFFFF;
+}

@@ -16,14 +16,9 @@ header section1{
     align-items: center;
 }
 
-
 header figure {
     width: 150px;
     height: 150px;
-}
-
-header figure a:hover {
-   cursor: zoom-in;
 }
 
 header figure img {
@@ -34,18 +29,19 @@ header figure img {
     box-shadow: 0 0 15px #dbc2a4;
 }
 
+header figure img a:hover {
+    cursor: zoom-in;
+ }
 
 header section2{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    
     align-items: center;
     height: 100px;
     background-color:#2c1d27
 }
 header section2 a {
-    width: 220px;
     color: #FFFFFF;
     text-decoration: none;
 }
