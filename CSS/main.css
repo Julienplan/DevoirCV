@@ -3,41 +3,42 @@ main {
     flex-direction: row;
 }
 
-aside {
-    display: flex;
-    flex-direction: column;
-    width: 30rem;
-}
-
-aside h3 {
-    display: flex;
-    flex-direction: row;
-    width: 85%;
-    background-color: #dbc2a4;
-}
-
-aside p {
-    color: #FFFFFF;
-    margin-left: 5%;
-    width: 80%;
-    text-align: justify;
-}
-
-#apropos {
-    text-indent: 2rem;
-}
-
-h3 {
-    text-indent: 2rem; /*à revoir si cest pas 1rem */
-}
-
-aside li {
-    color: #FFFFFF;
-}
-
 main section {
+    width: 70%;
     background-color: #FFFFFF;
     border-right-width: 2px;
     border-right-color: #2c1d27;
     border-right-style: solid;
+}
+
+main section h3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 2rem;
+    background-color: #dbc2a4;
+    border-left-width: 7px;
+    border-left-color: #782221;
+    border-left-style: solid;
+    text-indent: 1rem;
+    margin-left: 5%;
+    margin-right: 2%;
+}
+
+main section p {
+    text-align: justify;
+    margin-left: 5%;
+    margin-right: 2%;
+}
+main section ul {
+    text-align: justify;
+    margin-left: 5%;
+    margin-right: 2%;
+}
+
+.entreprise {
+    font-weight: bold;
+}
+.diplome {
+    font-weight: bold;
 }
