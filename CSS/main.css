@@ -30,10 +30,15 @@ main section p {
     margin-left: 5%;
     margin-right: 2%;
 }
+main section ul {
+    text-align: justify;
+    margin-left: 5%;
+    margin-right: 2%;
+}
 
-#entreprise {
+.entreprise {
     font-weight: bold;
 }
-#diplome {
+.diplome {
     font-weight: bold;
 }
