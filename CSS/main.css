@@ -42,3 +42,8 @@ main section ul {
 .diplome {
     font-weight: bold;
 }
+main article :hover {
+    border-right-width: 5px;
+    border-right-color: #782221;
+    border-right-style: solid;
+}
